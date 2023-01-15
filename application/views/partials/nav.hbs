@@ -1,0 +1,13 @@
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="/registration">Registration</a>
+    <a href="/postimage">Post</a>
+    <input id="search-image" name="search-image" type="text" placeholder="Search">
+    <a id="search-button" class="nav-items anchor-buttons">Go</a>
+    {{#if logged}}
+    <a id="logout-button">Log Out</a>
+    {{else}}
+    <a href="/login">Log In</a>
+    {{/if}}
+    
+</div>

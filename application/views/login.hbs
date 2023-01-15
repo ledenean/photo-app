@@ -1,0 +1,24 @@
+<body>
+    <form id="form" method="POST" action="/users/login" enctype="application/x-www-form-urlencoded">
+        <div class="page">
+            <label for="page">Login</label>
+        </div>
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id = "loginName" name="username" placeholder="Username"/>
+            <div class="error"></div>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id = "loginPass" name="password" placeholder="Password"/>
+            <div class="error"></div>
+        </div>
+        
+        <button type="submit" id="loginSub">Log In</button>
+
+        <div class="make-account">Don't have an account?
+            <a href="/registration">Register Here!</a>
+        </div>
+    </form>
+
+</body>

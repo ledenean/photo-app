@@ -1,0 +1,41 @@
+<body>
+    <form id="form" method="POST" action="/users/register" enctype="application/x-www-form-urlencoded">
+        <div class="page">
+            <label for="page">Register</label>
+        </div>
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id = "username" name="username" placeholder="Username"/>
+            <div class="error"></div>
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id = "email" name="email" placeholder="Email"/>
+            <div class="error"></div>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id = "password" name="password" placeholder="Password"/>
+            <div class="error"></div>
+        </div>
+        <div class="form-control">
+            <label for="confirm">Confirm password</label>
+            <input type="password" id = "confirm" name="confirm" placeholder="Confirm password"/>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="age">I am 13 years of age or older</label>
+            <input type="checkbox" id = "age" name="age" required=""/>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="terms">I have read and agree to the 
+                <a href="" target="_blank"> Privacy Policy</a> and
+                <a href="" target="_blank"> Terms of Service</a>
+            </label>
+            <input type="checkbox" id = "terms" name="terms" required=""/>
+            <div class="error"></div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
