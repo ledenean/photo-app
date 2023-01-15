@@ -2,6 +2,7 @@
 The purpose of this repository is to store all the code for the web application. The web application allows users to post, view, and search images. 
 
 Web application includes:
+
 Login system with registration requirements
 - Special specifications for usernames and passwords
 - Registration validator upon submission (meaning checks if inputed info is acceptable for registration)
